@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="flex">
+    <!-- sidebarr -->
+    <div class="hidden sm:block border w-[300px] bg-neutral-100 h-screen">
+        <div class="flex items-center">
+            <img src="ChatGPT-0.svg" alt="" class="w-8 p-2 inline rounded-full m-4">
+            <h1 class="font-bold font-sans text-sm">ChartGPT</h1>
+        </div>
+        <div class="mx-4 mt-4">
+            <p class="text-gray-400">Today</p>
+            <p class="mt-4 p-2 hover:rounded-2xl hover:bg-neutral-200 hover:cursor-pointer">Data Difference with data-fns</p>
+            <p class="mt-2 p-2 hover:rounded-2xl hover:bg-neutral-200 hover:cursor-pointer">Package JSON Error Fix</p>
+        </div>
+        <div class="mx-4 mt-4">
+            <p class="text-gray-400">Yesterday</p>
+            <p class="mt-4 p-2 hover:rounded-2xl hover:bg-neutral-200 hover:cursor-pointer">JSON Error Fixing </p>
+            <p class="mt-2 p-2 hover:rounded-2xl hover:bg-neutral-200 hover:cursor-pointer">Subscription Revenue Projection.</p>
+            <p class="mt-2 p-2 hover:rounded-2xl hover:bg-neutral-200 hover:cursor-pointer">Monthly Subcription Projection.</p>
+            <p class="mt-2 p-2 hover:rounded-2xl hover:bg-neutral-200 hover:cursor-pointer">JSON Error Fixing </p>
+        </div>
+        <div class="mx-4 mt-4">
+            <p class="text-gray-400">Previous 7 Days</p>
+            <div class="flex hover:rounded-2xl mt-6 px-4 py-2 items-center gap-4 hover:bg-neutral-200">
+                <img src="download (2).jpeg" class="rounded-full w-7 object-cover " alt="">
+                <div class="">
+                    <p>Add Team workspace</p>
+                    <p class="text-neutral-500 text-sm">Collaborate on a team </p>
+                </div>
+            </div>
+            <div class="flex hover:rounded-2xl mt-3 px-4 py-2 items-center gap-4 hover:bg-neutral-200">
+                <img src="photo.jpg" class="rounded-full w-7 object-cover " alt="">
+                <p class="">Sujeet Honnappagol</p>
+            </div>
+        </div>
+    </div>
+    <!-- main content -->
+     <div class="h-screen w-[90%]  sm:w-[calc(100%-270px)] relative">
+        <div class="w-full md:w-[90%] md:mx-auto mx-auto absolute bottom-5 left-1/2 -translate-x-1/2">
+            <div class="text-center mt-4">
+                <img src="ChatGPT-0.svg" class="rounded-full h-12 border p-2 inline" alt="">
+                <h1 class="font-bold text-2xl">How can I help you today?</h1>
+            </div>
+            <div class="flex md:flex sm:block gap-3 mt-14">
+                <div class="border rounded-lg w-1/2 py-2 px-4  hover:bg-neutral-100">
+                    <h2 class="font-bold text-sm ">Test my Knowledge </h2>
+                    <p class="text-neutral-500">On acient civilisation</p>
+                </div>
+                <div class="border rounded-lg w-1/2 py-2 px-4  hover:bg-neutral-100">
+                    <h2 class="font-bold text-sm ">Create a morning routine</h2>
+                    <p class="text-neutral-500">to boost my productivity</p>
+                </div>
+            </div>
+            <div class="flex gap-3 mt-4">
+                <div class="border rounded-lg w-1/2 py-2 px-4  hover:bg-neutral-100">
+                    <h2 class="font-bold text-sm ">Write a python script </h2>
+                    <p class="text-neutral-500">To automate sending daily emails report</p>
+                </div>
+                <div class="border rounded-lg w-1/2 py-2 px-4  hover:bg-neutral-100">
+                    <h2 class="font-bold text-sm ">Write  a thank you note </h2>
+                    <p class="text-neutral-500">To my interviewer</p>
+                </div>
+            </div>
+            <input type="text" placeholder="Message chatGpt" class="border rounded-xl mt-4 w-[100%] py-4 px-6 focus:outline-none focus:shadow">
+            <p class="mt-4 text-center text-sm text-neutral-500">ChatGPT can make mistakes.Check important info.</p>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
